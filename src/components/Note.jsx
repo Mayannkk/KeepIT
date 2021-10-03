@@ -11,7 +11,7 @@ function Note(props) {
       <h1>{props.title}</h1>
       <p>{props.content}</p>
       <button onClick={handleClick}>
-        <i class="fas fa-trash"></i>
+        <i className="fas fa-trash-alt"></i>
       </button>
     </div>
   );
