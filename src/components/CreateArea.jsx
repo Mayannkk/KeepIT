@@ -42,7 +42,9 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows="3"
         />
-        <button onClick={submitNote}>Add</button>
+        <button onClick={submitNote}>
+          <i class="fas fa-trash"></i>
+        </button>
       </form>
     </div>
   );
